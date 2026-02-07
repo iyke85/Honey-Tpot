@@ -10,7 +10,7 @@
 - contractor access lifecycle policies with time-bound permissions and restricted access scopes.
 -  automated offboarding procedures for immediate account deactivation and resource cleanup upon employee termination.
 - Deployed privileged access governance controls, leveraging just-in-time (JIT) elevation workflows with approval processes.
-- AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
+- Automated Office 365 User Onboarding with Okta Workflows
 
 ##  Automated new hire onboarding workflows for seamless account provisioning and secure app access.
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
