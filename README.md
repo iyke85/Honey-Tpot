@@ -1,17 +1,18 @@
-# # Building a SOC + Honeynet in Vultr (Live Traffic)
+# # Enterprise Identity Governance & Access Control Implementation
 ![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
 
 ## Introduction
 
-In this project, I build a mini honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, apply some security controls to harden the environment, measure metrics for another 24 hours, then show the results below. The metrics we will show are:
+  This project focused on automating identity provisioning, enforcing strict access control policies, and establishing governance workflows to secure the entire user lifecycle — from onboarding through termination, including incident response and privileged access management. Through hands-on experience and self-led security projects, I’ve built identity infrastructures, strengthened access policies, and explored threat detection techniques to enhance enterprise security. I’m eager to continue growing in IAM/PAM and connect with professionals in the field!
 
-- SecurityEvent (Windows Event Logs)
-- Syslog (Linux Event Logs)
-- SecurityAlert (Log Analytics Alerts Triggered)
-- SecurityIncident (Incidents created by Sentinel)
+
+- Automated new hire onboarding workflows for seamless account provisioning and secure app access.
+- contractor access lifecycle policies with time-bound permissions and restricted access scopes.
+-  automated offboarding procedures for immediate account deactivation and resource cleanup upon employee termination.
+- Deployed privileged access governance controls, leveraging just-in-time (JIT) elevation workflows with approval processes.
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-## Architecture Before Hardening / Security Controls
+##  Automated new hire onboarding workflows for seamless account provisioning and secure app access.
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
 
 ## Architecture After Hardening / Security Controls
