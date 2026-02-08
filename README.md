@@ -2,9 +2,7 @@
 ![Cloud Honeynet / SOC](https://i.imgur.com/qAj7OLS.png)
 
 ## Introduction
-
-  This project focused on automating identity provisioning, enforcing strict access control policies, and establishing governance workflows to secure the entire user lifecycle — from onboarding through termination, including incident response and privileged access management. Through hands-on experience and self-led security projects, I’ve built identity infrastructures, strengthened access policies, and explored threat detection techniques to enhance enterprise security. I’m eager to continue growing in IAM/PAM and connect with professionals in the field!
-
+ This project focused on automating identity provisioning, enforcing strict access control policies, and establishing governance workflows to secure the entire user lifecycle — from onboarding through termination, including incident response and privileged access management. Through hands-on experience and self-led security projects, I’ve built identity infrastructures, strengthened access policies, and explored threat detection techniques to enhance enterprise security. I’m eager to continue growing in IAM/PAM and connect with professionals in the field!
 
 - Automated new hire onboarding workflows for seamless account provisioning and secure app access.
 - contractor access lifecycle policies with time-bound permissions and restricted access scopes.
