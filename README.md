@@ -1,5 +1,5 @@
 # # Enterprise Identity Governance & Access Control Implementation
-![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
+![Cloud Honeynet / SOC]([https://i.imgur.com/qAj7OLS.png)
 
 ## Introduction
 
