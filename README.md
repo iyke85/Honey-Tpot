@@ -25,6 +25,14 @@
 - Office 365 Mail Connector
 - Group-based access provisioning
 
+  # Workflow Logic
+- Triggered when a user is created in Okta
+- Retrieves user profile attributes
+- Validates user status to ensure the account is active
+- Automatically assigns the user to the Office 365 access group
+- Provisions Office 365 applications via group assignment
+- Sends an automated email notification confirming access provisioning
+
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
 
