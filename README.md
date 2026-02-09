@@ -18,12 +18,12 @@
 
  Automated identity onboarding solution using Okta Workflows to provision Office 365 access for newly created users. The workflow assigns users to the appropriate Office 365 access group and sends real-time email notifications to IT for visibility and audit tracking.
  
-Tools & Technologies
-Okta Identity Cloud
-Okta Workflows
-Microsoft Office 365
-Office 365 Mail Connector
-Group-based access provisioning
+# Tools & Technologies
+- Okta Identity Cloud
+- Okta Workflows
+- Microsoft Office 365
+- Office 365 Mail Connector
+- Group-based access provisioning
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
