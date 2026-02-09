@@ -32,6 +32,12 @@
 - Automatically assigns the user to the Office 365 access group
 - Provisions Office 365 applications via group assignment
 - Sends an automated email notification confirming access provisioning
+# Business Impact
+- Eliminated manual Office 365 license assignment
+- Improved onboarding speed and consistency
+- Increased visibility through automated notifications
+- Reduced risk of missed or incorrect access assignments
+- Strengthened IAM governance and audit readiness
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
