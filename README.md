@@ -12,8 +12,9 @@
 
 ##  Automated new hire onboarding workflows for seamless account provisioning and secure app access.
 ![Architecture Diagram](https://i.imgur.com/q1qv8S4.png)
-![Architecture Diagram](https://i.imgur.com/q1qv8S4.png)
-[![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![Architecture Diagram](https://i.imgur.com/S5tbBJF.png)
+[![Architecture Diagram](https://i.imgur.com/fT6QcfH.png)
+[![Architecture Diagram](https://i.imgur.com/mkUDaPi.png)
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
