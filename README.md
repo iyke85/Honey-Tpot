@@ -50,7 +50,25 @@ Designed and implemented an automated identity governance workflow using Okta Wo
 - Group-based access management
   ![Architecture Diagram](https://i.imgur.com/gzMnZyK.png)
   ![Architecture Diagram](https://i.imgur.com/lej1MN9.png)
-  ![Architecture Diagram](https://i.imgur.com/EbtToBc.png)
+  ![Architecture Diagram](https://i.imgur.com/ytfLCQo.png)
+  # Workflow Logic
+- Triggered automatically when a user account is suspended in Okta
+- Retrieves the suspended user’s profile details for context and logging
+- Adds the user to a predefined Suspended Users group for centralized tracking
+- Sends an automated email notification to IT/Security via Office 365
+- Logs the workflow execution for audit and troubleshooting purposes
+  # Business Impact
+- Ensured immediate and consistent handling of suspended accounts
+- Eliminated manual tracking of suspended users
+- Improved security visibility through real-time notifications
+- Supported audit and compliance requirements by maintaining group-based records
+- Reduced risk of delayed response during security or HR-driven suspensions
+ # Key Skills Demonstrated
+- Identity lifecycle automation
+- Security-focused workflow design
+- Okta event-based triggers
+- Group-based access control
+- Automated notification and audit workflows
   
 
 For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
