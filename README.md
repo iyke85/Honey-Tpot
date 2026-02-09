@@ -41,16 +41,17 @@
 
 ## Automated User Suspension Handling and Notification with Okta Workflows
 ![Architecture Diagram](https://i.imgur.com/EbtToBc.png)
+Designed and implemented an automated identity governance workflow using Okta Workflows to handle user suspension events. The workflow ensures suspended users are immediately added to a dedicated security group and triggers an automated email notification, improving visibility, audit readiness, and response time during account lifecycle events.
 
-The architecture of the mini honeynet in Azure consists of the following components:
-
-- Virtual Network (VNet)
-- Network Security Group (NSG)
-- Virtual Machines (2 windows, 1 linux)
-- Log Analytics Workspace
-- Azure Key Vault
-- Azure Storage Account
-- Microsoft Sentinel
+# Tools & Technologies
+- Okta Identity Cloud
+- Okta Workflows
+- Microsoft Office 365 Mail Connector
+- Group-based access management
+  ![Architecture Diagram](https://i.imgur.com/gzMnZyK.png)
+  ![Architecture Diagram](https://i.imgur.com/lej1MN9.png)
+  ![Architecture Diagram](https://i.imgur.com/EbtToBc.png)
+  
 
 For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
 
