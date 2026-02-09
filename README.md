@@ -39,8 +39,8 @@
 - Reduced risk of missed or incorrect access assignments
 - Strengthened IAM governance and audit readiness
 
-## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+## Automated User Suspension Handling and Notification with Okta Workflows
+![Architecture Diagram](https://i.imgur.com/EbtToBc.png)
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
