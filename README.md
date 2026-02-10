@@ -94,10 +94,6 @@ Built a secure contractor access model in Okta using attribute-based group rules
 - Created a Contractor group in Okta
 - Implemented a group rule that automatically adds users to the Contractor group when the department attribute equals contractor
 - Ensured dynamic, scalable group membership without manual intervention
-## Contractor Password Policy
-- Created a dedicated password policy for contractors
-- Enforced a minimum 12-character password length
-- Applied stricter password standards to contractor accounts to reduce credential-based risk
 ![Architecture Diagram](https://i.imgur.com/zWWVuxg.png)
 ![Architecture Diagram](https://i.imgur.com/MJ0i6Bd.png)
 ![Architecture Diagram](https://i.imgur.com/Mz6qUJ4.png)
