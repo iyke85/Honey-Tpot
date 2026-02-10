@@ -71,28 +71,30 @@ Designed and implemented an automated identity governance workflow using Okta Wo
 - Automated notification and audit workflows
   
 
-For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
+## Contractor Access Control Using Attribute-Based Grouping and Adaptive Policies in Okta
 
-For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
+Built a secure contractor access model in Okta using attribute-based group rules and targeted authentication policies. The solution automatically classifies contractor accounts, enforces stronger password requirements, and applies multi-factor authentication to reduce risk associated with non-employee access.
+# Tools & Technologies
+- Okta Identity Cloud
+- Okta Universal Directory
+- Okta Group Rules
+- Okta Password Policies
+- Okta Enrollment and Authentication Policies
 
 ## Attack Maps Before Hardening / Security Controls
 ![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
 ![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
 ![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
 
-## Metrics Before Hardening / Security Controls
+## Contractor Access Control Using Attribute-Based Grouping and Adaptive Policies in Okta
 
-The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
-
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+Built a secure contractor access model in Okta using attribute-based group rules and targeted authentication policies. The solution automatically classifies contractor accounts, enforces stronger password requirements, and applies multi-factor authentication to reduce risk associated with non-employee access.
+# Tools & Technologies
+- Okta Identity Cloud
+- Okta Universal Directory
+- Okta Group Rules
+- Okta Password Policies
+- Okta Enrollment and Authentication Policies
 
 ## Attack Maps Before Hardening / Security Controls
 
