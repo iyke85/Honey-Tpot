@@ -86,15 +86,14 @@ Built a secure contractor access model in Okta using attribute-based group rules
 ![Architecture Diagram](https://i.imgur.com/ki6X0mU.png)
 ![Architecture Diagram](https://i.imgur.com/Mz6qUJ4.png)
 
-## Contractor Access Control Using Attribute-Based Grouping and Adaptive Policies in Okta
-
-Built a secure contractor access model in Okta using attribute-based group rules and targeted authentication policies. The solution automatically classifies contractor accounts, enforces stronger password requirements, and applies multi-factor authentication to reduce risk associated with non-employee access.
-# Tools & Technologies
-- Okta Identity Cloud
-- Okta Universal Directory
-- Okta Group Rules
-- Okta Password Policies
-- Okta Enrollment and Authentication Policies
+## Implementation Details
+- Created a Contractor group in Okta
+- Implemented a group rule that automatically adds users to the Contractor group when the department attribute equals contractor
+- Ensured dynamic, scalable group membership without manual intervention
+## Contractor Password Policy
+- Created a dedicated password policy for contractors
+- Enforced a minimum 12-character password length
+- Applied stricter password standards to contractor accounts to reduce credential-based risk
 
 ## Attack Maps Before Hardening / Security Controls
 
