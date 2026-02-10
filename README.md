@@ -82,9 +82,9 @@ Built a secure contractor access model in Okta using attribute-based group rules
 - Okta Enrollment and Authentication Policies
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+![Architecture Diagram](https://i.imgur.com/xqXWlvm.png)
+![Architecture Diagram](https://i.imgur.com/gzMnZyK.png)
+![Architecture Diagram](https://i.imgur.com/gzMnZyK.png)
 
 ## Contractor Access Control Using Attribute-Based Grouping and Adaptive Policies in Okta
 
