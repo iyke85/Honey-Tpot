@@ -81,10 +81,10 @@ Built a secure contractor access model in Okta using attribute-based group rules
 - Okta Password Policies
 - Okta Enrollment and Authentication Policies
 
-## Attack Maps Before Hardening / Security Controls
+## Attribute-Based Group Assignment and Password Policy
 ![Architecture Diagram](https://i.imgur.com/xqXWlvm.png)
-![Architecture Diagram](https://i.imgur.com/gzMnZyK.png)
-![Architecture Diagram](https://i.imgur.com/gzMnZyK.png)
+![Architecture Diagram](https://i.imgur.com/ki6X0mU.png)
+![Architecture Diagram](https://i.imgur.com/Mz6qUJ4.png)
 
 ## Contractor Access Control Using Attribute-Based Grouping and Adaptive Policies in Okta
 
