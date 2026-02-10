@@ -80,6 +80,10 @@ Built a secure contractor access model in Okta using attribute-based group rules
 - Okta Group Rules
 - Okta Password Policies
 - Okta Enrollment and Authentication Policies
+## Contractor Password Policy
+- Created a dedicated password policy for contractors
+- Enforced a minimum 12-character password length
+- Applied stricter password standards to contractor accounts to reduce credential-based risk
 
 ## Attribute-Based Group Assignment and Password Policy
 ![Architecture Diagram](https://i.imgur.com/xqXWlvm.png)
@@ -94,6 +98,34 @@ Built a secure contractor access model in Okta using attribute-based group rules
 - Created a dedicated password policy for contractors
 - Enforced a minimum 12-character password length
 - Applied stricter password standards to contractor accounts to reduce credential-based risk
+![Architecture Diagram](https://i.imgur.com/zWWVuxg.png)
+![Architecture Diagram](https://i.imgur.com/MJ0i6Bd.png)
+![Architecture Diagram](https://i.imgur.com/Mz6qUJ4.png)
+## Authentication and Enrollment Policy
+- Configured a contractor-specific enrollment and authentication policy
+- Required authentication using:
+- Password
+- Okta Verify as an additional factor
+- Restricted authentication methods to prevent weaker or unsupported MFA options
+![Architecture Diagram](https://i.imgur.com/NvZTaNo.png)
+## Business Impact
+- Automated contractor classification and policy enforcement
+- Reduced manual effort in managing non-employee access
+- Improved security posture for third-party and temporary users
+- Ensured consistent application of stronger authentication controls
+- Supported least-privilege and zero-trust identity principles
+## Key Skills Demonstrated
+- Attribute-based access control (ABAC)
+- Identity lifecycle management
+- Secure authentication policy design
+- MFA enforcement and factor restrictions
+- Okta group rule configuration
+## Workflow Logic Summary
+- User account is created or updated
+- Okta evaluates the user’s department attribute
+- Users with department set to contractor are automatically added to the Contractor group
+- Contractor-specific password and authentication policies are applied
+- Access and authentication behavior are enforced consistently across contractor accounts
 
 ## Attack Maps Before Hardening / Security Controls
 
