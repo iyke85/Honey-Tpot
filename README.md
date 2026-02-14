@@ -138,7 +138,7 @@ The workflow is triggered when a new employee account meets the defined onboardi
 - Automatically activates the user account at the appropriate onboarding stage, ensuring access is granted only when the employee officially begins.
 ## Impact:
 - Prevents premature access while guaranteeing Day 1 readiness.
-- Add User to Groups
+## Add User to Groups
 - Adds the new hire to predefined security groups.
 ## Impact:
 - Grants access to required applications
