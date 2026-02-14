@@ -123,7 +123,7 @@ Built a secure contractor access model in Okta using attribute-based group rules
 - Contractor-specific password and authentication policies are applied
 - Access and authentication behavior are enforced consistently across contractor accounts
 
-## Attack Maps Before Hardening / Security Controls
+## ENTRA ID LIFECYCLE WORKFLOW JOINERS/MOVERS/LEAVERS.
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
