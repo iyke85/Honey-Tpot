@@ -203,7 +203,6 @@ The workflow is triggered when a user’s profile attributes indicate a role or 
 ![Architecture Diagram](https://i.imgur.com/mxaxroh.png)
 ![Architecture Diagram](https://i.imgur.com/nJScDop.png)
 ![Architecture Diagram](https://i.imgur.com/R0FdoMQ.png)
-![Architecture Diagram](https://i.imgur.com/GHGGa5d.png)
 ![Architecture Diagram](https://i.imgur.com/IoQ1UVC.png)
 [![Architecture Diagram](https://i.imgur.com/0VKauRr.png)
 
