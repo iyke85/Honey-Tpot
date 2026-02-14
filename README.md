@@ -125,7 +125,7 @@ Built a secure contractor access model in Okta using attribute-based group rules
 
 ## ENTRA ID LIFECYCLE WORKFLOW JOINERS/MOVERS/LEAVERS.
 
-Built an automated new hire onboarding workflow in Microsoft Entra ID using Lifecycle Workflows. The solution provisions user accounts, assigns group-based access, and sends onboarding communications automatically, ensuring consistent and secure Day 1 access for new employees.
+Built an automated joiner-new-hire onboarding workflow in Microsoft Entra ID using Lifecycle Workflows. The solution creates user accounts, assigns group-based access, and sends onboarding communications automatically, so new employees have consistent, secure access from Day 1.
 ## Platform & Technologies
 - Microsoft Entra ID
 - Identity Governance (Lifecycle Workflows)
