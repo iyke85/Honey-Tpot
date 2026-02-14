@@ -200,11 +200,11 @@ The workflow is triggered when a user’s profile attributes indicate a role or 
 - Provides transparency
 - Supports accountability and oversight
 - Improves communication between IT and leadership
-![Architecture Diagram](https://i.imgur.com/p1DrZBC.png)
-![Architecture Diagram](https://i.imgur.com/RfTXTS0.png)
-![Architecture Diagram](https://i.imgur.com/13Vyrxj.png)
-![Architecture Diagram](https://i.imgur.com/RU7bDE9.png)
-![Architecture Diagram](https://i.imgur.com/BXgmu8q.png)
+![Architecture Diagram](https://i.imgur.com/mxaxroh.png)
+![Architecture Diagram](https://i.imgur.com/nJScDop.png)
+![Architecture Diagram](https://i.imgur.com/R0FdoMQ.png)
+![Architecture Diagram](https://i.imgur.com/GHGGa5d.png)
+![Architecture Diagram](https://i.imgur.com/IoQ1UVC.png)
 [![Architecture Diagram](https://i.imgur.com/0VKauRr.png)
 
 
