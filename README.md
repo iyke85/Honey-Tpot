@@ -125,7 +125,49 @@ Built a secure contractor access model in Okta using attribute-based group rules
 
 ## ENTRA ID LIFECYCLE WORKFLOW JOINERS/MOVERS/LEAVERS.
 
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
+Built an automated new hire onboarding workflow in Microsoft Entra ID using Lifecycle Workflows. The solution provisions user accounts, assigns group-based access, and sends onboarding communications automatically, ensuring consistent and secure Day 1 access for new employees.
+## Platform & Technologies
+- Microsoft Entra ID
+- Identity Governance (Lifecycle Workflows)
+- Microsoft 365
+- Group-based access control (RBAC)
+## Workflow Trigger
+The workflow is triggered when a new employee account meets the defined onboarding criteria (for example: account created or hire date reached).
+## Tasks Configured
+- Enable User Account
+- Automatically activates the user account at the appropriate onboarding stage, ensuring access is granted only when the employee officially begins.
+## Impact:
+- Prevents premature access while guaranteeing Day 1 readiness.
+- Add User to Groups
+- Adds the new hire to predefined security groups.
+## Impact:
+- Grants access to required applications
+- Ensures role-based access consistency
+- Eliminates manual group assignment errors
+## Send Welcome Email
+- Automatically sends a welcome message with onboarding instructions and login guidance.
+## Impact:
+- Improves user experience
+- Reduces helpdesk tickets
+- Standardizes onboarding communication
+![Architecture Diagram](https://i.imgur.com/p1DrZBC.png)
+![Architecture Diagram](https://i.imgur.com/RfTXTS0.png)
+![Architecture Diagram](https://i.imgur.com/13Vyrxj.png)
+![Architecture Diagram](https://i.imgur.com/RU7bDE9.png)
+![Architecture Diagram](https://i.imgur.com/BXgmu8q.png)
+## Business Value
+- Reduced manual onboarding effort
+- Accelerated employee productivity
+- Improved security through consistent access enforcement
+- Increased audit visibility for identity lifecycle events
+- Standardized onboarding process across the organization
+## Key Skills Demonstrated
+- Identity lifecycle automation
+- Microsoft Entra Lifecycle Workflows configuration
+- Group-based access provisioning
+- Access governance principles
+- Secure onboarding process design
+
 
 ## Metrics After Hardening / Security Controls
 
