@@ -155,6 +155,7 @@ The workflow is triggered when a new employee account meets the defined onboardi
 ![Architecture Diagram](https://i.imgur.com/13Vyrxj.png)
 ![Architecture Diagram](https://i.imgur.com/RU7bDE9.png)
 ![Architecture Diagram](https://i.imgur.com/BXgmu8q.png)
+[![Architecture Diagram](https://i.imgur.com/0VKauRr.png)
 ## Business Value
 - Reduced manual onboarding effort
 - Accelerated employee productivity
@@ -169,11 +170,44 @@ The workflow is triggered when a new employee account meets the defined onboardi
 - Secure onboarding process design
 
 
-## Metrics After Hardening / Security Controls
+## Automated Role Change (Mover) Workflow Using Microsoft Entra Lifecycle Workflows
 
-The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Configured an automated role change (Mover) workflow in Microsoft Entra Lifecycle Workflows to manage access transitions when employees change departments or roles. The workflow removes outdated access, assigns new role-based group memberships, and notifies the user’s manager to maintain visibility and governance during access changes.
+## Platform & Technologies
+- Microsoft Entra ID
+- Identity Governance – Lifecycle Workflows
+- Microsoft 365
+- Security & Microsoft 365 Groups
+- Role-based access control (RBAC)
+## Workflow Trigger
+The workflow is triggered when a user’s profile attributes indicate a role or department change, ensuring access updates occur automatically during internal transitions.
+## Tasks Configured
+- Remove User from Selected Groups
+- Automatically removes the user from previous role-based or department-specific groups.
+## Impact:
+- Prevents privilege accumulation
+- Reduces risk of excessive access
+- Supports the least-privilege security model
+## Add User to New Groups
+- Assigns the user to new groups aligned with their updated role or department.
+## Impact:
+- Ensures correct application and resource access
+- Maintains consistency across identity governance policies
+- Eliminates manual reassignment errors
+## Send Email Notification to Manager
+- Automatically sends a notification to the user’s manager informing them of the access changes.
+## Impact:
+- Provides transparency
+- Supports accountability and oversight
+- Improves communication between IT and leadership
+![Architecture Diagram](https://i.imgur.com/p1DrZBC.png)
+![Architecture Diagram](https://i.imgur.com/RfTXTS0.png)
+![Architecture Diagram](https://i.imgur.com/13Vyrxj.png)
+![Architecture Diagram](https://i.imgur.com/RU7bDE9.png)
+![Architecture Diagram](https://i.imgur.com/BXgmu8q.png)
+[![Architecture Diagram](https://i.imgur.com/0VKauRr.png)
+
+
 
 | Metric                   | Count
 | ------------------------ | -----
@@ -188,3 +222,5 @@ Stop Time	2023-03-19 15:37
 In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
 
 It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+
+
