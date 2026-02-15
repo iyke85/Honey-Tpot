@@ -206,6 +206,18 @@ The workflow is triggered when a user’s profile attributes indicate a role or 
 ![Architecture Diagram](https://i.imgur.com/IoQ1UVC.png)
 [![Architecture Diagram](https://i.imgur.com/izfUW3Z.png)
 [![Architecture Diagram](https://i.imgur.com/f0JxqwQ.png)
+## Business Value
+- Reduced manual access modification workload
+- Strengthened governance during internal role transitions
+- Prevented access sprawl and privilege creep
+- Improved audit visibility of role-based access changes
+- Enhanced security posture through automated enforcement
+## Key Skills Demonstrated
+- Identity lifecycle automation
+- Access recertification principles
+- Role-based access management
+- Microsoft Entra Identity Governance
+- Secure workflow configuration
 
 
 | Metric                   | Count
