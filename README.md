@@ -2,14 +2,7 @@
 ![Cloud Honeynet / SOC](https://i.imgur.com/qAj7OLS.png)
 
 ## Introduction
- This project focused on automating identity provisioning, enforcing strict access control policies, and establishing governance workflows to secure the entire user lifecycle — from onboarding through termination, including incident response and privileged access management. Through hands-on experience and self-led security projects, I’ve built identity infrastructures, strengthened access policies, and explored threat detection techniques to enhance enterprise security. I’m eager to continue growing in IAM/PAM and connect with professionals in the field!
-
-- Automated new hire onboarding workflows for seamless account provisioning and secure app access.
-- contractor access lifecycle policies with time-bound permissions and restricted access scopes.
--  automated offboarding procedures for immediate account deactivation and resource cleanup upon employee termination.
-- Deployed privileged access governance controls, leveraging just-in-time (JIT) elevation workflows with approval processes.
-- Automated Office 365 User Onboarding with Okta Workflows
-
+Managing identities across multiple platforms requires structured automation and strong governance controls. This project integrates Okta and Microsoft Entra to automate onboarding, role changes, suspension handling, and offboarding processes. Through lifecycle workflows, group-based access management, and policy enforcement, the solution improves operational efficiency while strengthening security and compliance across the identity ecosystem.
 ##  Automated new hire onboarding workflows for seamless account provisioning and secure app access.
 ![Architecture Diagram](https://i.imgur.com/q1qv8S4.png)
 ![Architecture Diagram](https://i.imgur.com/S5tbBJF.png)
@@ -218,20 +211,24 @@ The workflow is triggered when a user’s profile attributes indicate a role or 
 - Role-based access management
 - Microsoft Entra Identity Governance
 - Secure workflow configuration
+## Automated Offboarding (Leaver) Workflow Using Microsoft Entra Lifecycle Workflows
 
-
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
-| SecurityAlert            | 0
-| SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
+Built an automated offboarding workflow in Microsoft Entra Lifecycle Workflows to securely manage user departures. The solution removes group memberships, revokes Microsoft Teams access, and notifies managers before the employee’s final working day to ensure a controlled and auditable exit process.
+## Platform & Technologies
+- Microsoft Entra ID
+- Identity Governance – Lifecycle Workflows
+- Microsoft 365
+- Microsoft Teams
+- Group-based access control
+## Workflow Trigger
+The workflow is triggered based on the user’s termination date or last working day attribute, ensuring offboarding actions occur at the correct time without manual intervention.
+![Architecture Diagram](https://i.imgur.com/KEQuRho.png)
+![Architecture Diagram](https://i.imgur.com/1RfgtHW.png)
+![Architecture Diagram](https://i.imgur.com/bRAl2xP.png)
+![Architecture Diagram](https://i.imgur.com/hz2B4z0.png)
 
 ## Conclusion
 
-In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
-
-It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+Through the integration of Okta and Microsoft Entra lifecycle automation, this implementation establishes a scalable and policy-driven identity management framework. The coordinated workflows improve operational efficiency, prevent privilege accumulation, and ensure timely provisioning and deprovisioning across the organization’s identity ecosystem.
 
 
