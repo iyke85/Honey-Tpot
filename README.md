@@ -1,9 +1,12 @@
-# # Enterprise Identity Governance & Access Control Implementation
-![Cloud Honeynet / SOC](https://i.imgur.com/qAj7OLS.png)
+# # Privileged Access Governance, Role Activation, Approval Workflow
+![Privileged Access Governance, Role Activation/Approval Workflow](https://i.imgur.com/FZf9nTR.png)
 
-## Introduction
-Managing identities across multiple platforms requires structured automation and strong governance controls. This project integrates Okta and Microsoft Entra to automate onboarding, role changes, suspension handling, and offboarding processes. Through lifecycle workflows, group-based access management, and policy enforcement, the solution improves operational efficiency while strengthening security and compliance across the identity ecosystem.
-##  Automated new hire onboarding workflows for seamless account provisioning and secure app access.
+## Project Overview
+
+In this implementation, I configured Privileged Identity Management (PIM) within Microsoft Entra ID to securely manage administrative access for a SharePoint Administrator role. The objective was to enforce governance controls, reduce standing privileges, and introduce approval-based access for elevated permissions.
+
+## Objective
+To ensure privileged access to SharePoint Online is controlled, auditable, and approved through a structured workflow — minimizing security risks associated with permanent administrative assignments.
 ![Architecture Diagram](https://i.imgur.com/q1qv8S4.png)
 ![Architecture Diagram](https://i.imgur.com/S5tbBJF.png)
 [![Architecture Diagram](https://i.imgur.com/fT6QcfH.png)
