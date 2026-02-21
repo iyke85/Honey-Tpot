@@ -7,20 +7,37 @@ In this implementation, I configured Privileged Identity Management (PIM) within
 
 ## Objective
 To ensure privileged access to SharePoint Online is controlled, auditable, and approved through a structured workflow — minimizing security risks associated with permanent administrative assignments.
-![Architecture Diagram](https://i.imgur.com/q1qv8S4.png)
-![Architecture Diagram](https://i.imgur.com/S5tbBJF.png)
-[![Architecture Diagram](https://i.imgur.com/fT6QcfH.png)
-[![Architecture Diagram](https://i.imgur.com/mkUDaPi.png)
+Implementation Details
+## 1️⃣ PIM Activation Configuration
+- Enabled Privileged Identity Management (PIM) in the Enterprise tenant.
+- Selected the SharePoint Administrator Azure AD role.
+- Configured the role type as Active assignment.
+![Architecture Diagram](https://i.imgur.com/YPtj8Wa.png)
+![Architecture Diagram](https://i.imgur.com/FhgAO99.png)
+[![Architecture Diagram](https://i.imgur.com/20RobDl.png)
+[![Architecture Diagram](https://i.imgur.com/d702JVk.png)
 
- Automated identity onboarding solution using Okta Workflows to provision Office 365 access for newly created users. The workflow assigns users to the appropriate Office 365 access group and sends real-time email notifications to IT for visibility and audit tracking.
+## 2️⃣ Approval Workflow Setup
+- Configured approval settings requiring manager authorization.
+- When the role was activated:
+- An automatic email notification was sent to the user’s manager.
+- The manager approved the request.
+- The role was successfully assigned to the user.
+## 3️⃣ Governance & Control Measures
+- Enforced approval-based activation.
+- Ensured role assignment was auditable via Entra logs.
+- Reduced risk of unauthorized privilege escalation.
+  
+[![Architecture Diagram](https://i.imgur.com/d702JVk.png)
  
-# Tools & Technologies
-- Okta Identity Cloud
-- Okta Workflows
-- Microsoft Office 365
-- Office 365 Mail Connector
-- Group-based access provisioning
-
+## Security & Compliance Impact
+- Eliminates uncontrolled administrative access.
+- Introduces accountability through manager approval.
+- Improves audit readiness and compliance posture.
+- Aligns with Zero Trust and least privilege principles.
+[![Architecture Diagram](https://i.imgur.com/lmNWvd9.png)
+## Outcome
+The successful activation of the SharePoint Administrator role through PIM demonstrates controlled privileged access management within Microsoft Entra ID. By integrating approval workflows and audit logging, the environment now enforces stronger governance and reduces exposure to security risks associated with permanent elevated roles.
   # Workflow Logic
 - Triggered when a user is created in Okta
 - Retrieves user profile attributes
